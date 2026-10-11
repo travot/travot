@@ -1,4 +1,4 @@
-# Hi, I'm Tom Ravot 👋
+# Hi, I'm Tom Ravot 
 
 Bachelor's student in **Communication Systems at EPFL** (2024 to present). I'm interested in machine learning and in the computational systems that make it work: how data is represented, how algorithms are structured, and how that affects performance and reliability.
 
