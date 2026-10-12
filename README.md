@@ -1,6 +1,6 @@
 # Hi, I'm Tom Ravot 👋
 
-Bachelor's student in **Communication Systems at EPFL** (2024 to present). I'm interested in machine learning and in the computational systems that make it work: how data is represented, how algorithms are structured, and how that affects performance and reliability.
+Bachelor's student in **Communication Systems at EPFL** (2024 to present). I'm interested in machine learning, quantitative finance, and the computational systems that make them work: how data is represented, how algorithms are structured, and how that affects performance and reliability.
 
 <p align="left">
   <img src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white" alt="Java">
