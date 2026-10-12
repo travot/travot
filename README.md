@@ -26,7 +26,7 @@ Predicting gaming addiction level and score from behavioural data, with every me
 ### [Optimal Trade Execution: the Almgren-Chriss Model, Tested on Market Data](https://github.com/travot/optimal-trade-execution)
 *Personal project · 2026*
 
-A Python implementation of the Almgren-Chriss framework for liquidating a large order, with Monte Carlo verification of the closed-form results and a GARCH(1,1) volatility forecaster written from scratch. Calibrated on 132,480 Binance BTCUSDT 1-minute bars, it shows that market impact is concave (exponent about 0.75, not the linear 1 the model assumes) and that volatility varies by a factor of about 7 over the day. Under an assumed temporary impact, the optimal schedule lowers the standard deviation of the shortfall from 21.4 to 17.3 bps at the same mean cost.
+A Python implementation of the Almgren-Chriss framework for liquidating a large order, with Monte Carlo verification of the closed-form results and a GARCH(1,1) volatility forecaster written from scratch. Calibrated on 132,480 Binance BTCUSDT 1-minute bars, it shows that market impact is concave (**exponent about 0.75**, not the linear 1 the model assumes) and that volatility varies by a **factor of about 7** over the day. Under an assumed temporary impact, the optimal schedule lowers the standard deviation of the shortfall from **21.4 to 17.3 bps** at the same mean cost.
 
 **Tech:** Python · NumPy · Matplotlib · pytest
 
