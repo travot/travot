@@ -46,7 +46,7 @@ A top-down action-puzzle game for two players on one keyboard, with a fire hero 
 
 ## Skills
 
-- **Languages:** Python, Java, C
+- **Languages:** Python, Java, C (systems programming coursework, CS-202)
 - **Machine learning:** regression, classification, k-NN, neural networks, clustering, handling class imbalance, cross-validation
 - **Quantitative methods:** Monte Carlo simulation, time-series volatility models (GARCH, EWMA), model calibration and validation
 - **Software:** object-oriented design, algorithms and data structures, JUnit, pytest, Git
