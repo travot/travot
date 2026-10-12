@@ -14,7 +14,7 @@ Bachelor's student in **Communication Systems at EPFL** (2024 to present). I'm i
 
 ## Projects
 
-All three were team projects built during my Bachelor's at EPFL.
+Three team projects and one personal project, all built during my Bachelor's at EPFL.
 
 ### [Gaming Addiction Prediction: Machine Learning from Scratch](https://github.com/travot/gaming-addiction-ml)
 *CS-233 Introduction to Machine Learning · team of 3 · 2026*
@@ -22,6 +22,13 @@ All three were team projects built during my Bachelor's at EPFL.
 Predicting gaming addiction level and score from behavioural data, with every method written in NumPy (no ML libraries): linear and logistic regression, k-NN, a multi-layer perceptron (backpropagation, Adam, dropout, L2) and K-Means. We tackled severe class imbalance with class-weighted losses, ANOVA F-score feature selection and oversampling, and reached **86.5% accuracy and 0.843 macro-F1** with the MLP.
 
 **Tech:** Python · NumPy · Matplotlib · LaTeX
+
+### [Optimal Trade Execution: the Almgren-Chriss Model, Tested on Market Data](https://github.com/travot/optimal-trade-execution)
+*Personal project · 2026*
+
+A Python implementation of the Almgren-Chriss framework for liquidating a large order, together with the tools to test its assumptions on real data: closed-form optimal schedule and efficient frontier, Monte Carlo verification, calibration of market impact and volatility from 1-minute bars, and a GARCH(1,1) volatility forecaster written from scratch. Run on 132,480 Binance BTCUSDT 1-minute bars (July to September 2026), it shows that **impact is concave** (exponent about 0.75, not the linear 1 the model assumes) and that **volatility varies by a factor of about 7** over the day. Out of sample, GARCH beats EWMA, and both beat a constant (QLIKE 0.29, 0.38, 0.52). With the model's schedule, the standard deviation of the shortfall drops from **21.4 to 17.3 bps** at the same mean cost. Closed-form results match 200,000-path Monte Carlo simulations (z-scores within ±1.6), and every formula is checked against independent implementations in automated tests.
+
+**Tech:** Python · NumPy · Matplotlib · pytest
 
 ### [ReCHor: Public Transport Journey Planner](https://github.com/travot/ReCHor-journey-planner)
 *CS-108 Practice of Object-Oriented Programming · team of 2 · spring 2025*
@@ -41,7 +48,8 @@ A top-down action-puzzle game for two players on one keyboard, with a fire hero 
 
 - **Languages:** Python, Java, C
 - **Machine learning:** regression, classification, k-NN, neural networks, clustering, handling class imbalance, cross-validation
-- **Software:** object-oriented design, algorithms and data structures, JUnit, Git
+- **Quantitative methods:** Monte Carlo simulation, time-series volatility models (GARCH, EWMA), model calibration and validation
+- **Software:** object-oriented design, algorithms and data structures, JUnit, pytest, Git
 - **Tools:** NumPy, Matplotlib, Jupyter, LaTeX, Linux
 
 ## Contact
